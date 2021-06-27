@@ -9,6 +9,8 @@ let resolution = [ 1000, 500 ];
 window.onload = async () => {
     const dimension = 10;
 
+    console.log(`${dimension}-cube`);
+
     const gl = WebGL.getWebGL("canvas");
     WebGL.init(gl);
     WebGL.resize(gl, resolution);

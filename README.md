@@ -2,6 +2,8 @@
 
 Example implementation of higher dimensional rendering in [WebGL](https://www.khronos.org/webgl/).
 
+Online demo: [https://oliverkovacs.github.io/demo/xdgl/](https://oliverkovacs.github.io/demo/xdgl/)
+
 ## Explanation
 
 Transformation, scaling, rotation, and projection is done on the GPU with the `xdgl.glsl` vertex shader, enabling high performance.
